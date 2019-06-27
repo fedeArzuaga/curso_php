@@ -1,0 +1,18 @@
+form{
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 15vh auto;
+	width: 300px;
+}
+input{
+	padding: 10px;
+	border: none;
+	background: #EFEFEF;
+}
+input + input{
+	margin: 16px 0 0 0;
+}
+[type="submit"]{
+	background: #0B55B9;
+	color: white;
+}
