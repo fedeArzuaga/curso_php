@@ -34,6 +34,7 @@ echo $num4 . "<br>";
 
 $num5 = "15";
 
+// Aquí le decimos a PHP explícitamente que cambie el tipo de dato de string a integer :)
 $resultado = (int) $num5;
 
 echo $resultado;
