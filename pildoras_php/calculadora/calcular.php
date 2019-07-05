@@ -13,15 +13,25 @@
 		function calulcar($calculo, $valor_uno, $valor_dos){
 
 			if( $calculo == "sumar" ){
-				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: ".($valor_uno + $valor_dos)."</p>";
+
+				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: " . ($valor_uno + $valor_dos) . "</p>";
+
 			}else if( $calculo == "restar" ){
-				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: ".($valor_uno - $valor_dos)."</p>";
+
+				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: " . ($valor_uno - $valor_dos) . "</p>";
+
 			}else if( $calculo == "dividir" ){
-				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: ".($valor_uno / $valor_dos)."</p>";
+
+				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: " . ($valor_uno / $valor_dos) . "</p>";
+
 			}else if( $calculo == "multiplicar" ){
-				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: ".($valor_uno * $valor_dos)."</p>";
+
+				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: " . ($valor_uno * $valor_dos) . "</p>";
+
 			}else if( $calculo == "modulo" ){
-				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: ".($valor_uno % $valor_dos)."</p>";
+
+				echo "<p class=\"resultado\">El resultado de tu operacion ($calculo) es: " . ($valor_uno % $valor_dos) . "</p>";
+
 			}
 
 		}
